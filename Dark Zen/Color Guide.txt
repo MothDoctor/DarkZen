@@ -1,27 +1,51 @@
-The primary goal is to avoid Christmas tree clusterfuck in C/C++ syntax highlighting
-- make entire text less saturted
-- group similar elements together by color
+Here's the list of major colors changed that differs from One Dark Pro theme (VS 2019 version), a base for my theme.
 
-Here's the list of major colors changed that diers from One Dark Pro theme, a base for my theme.
-List if essential since VS Color Editor doesn't use anything similar to CSS stylesheets.
-There are thousands of fields to update separately. And Color Editor crashes often if you click too fast... or using Search many times...
+------------------------------------------------------------------
+this drives entire color scheme
 
 // members - light green, easily to spot
-C++ Member members
-C++ Static Member members
-Resharper C++ Member member Identifier
-Resharper C++ Static Member member Identifier
-Resharper C++ Union Member Identifier
 : 4C9F70
 
-// cointaner for members should be have similar color, but much darker - decrease color chaos when used in the same line with its member
-Resharper C++ Class Identifier - all of them
-Resharper C++ Namespace Identifier
-Resharper C++ Struct Identifier
-: 40623B
+// fields needs color which nicely complements members, they're always appear together
+// should stand out if placed in the same line with local variables, but still be very similar (otherwise you get clusterfuck)
+all non-local variables
+: 3E74AB
+
+// a slightly different shade for local variables, member parameters and enum entries
+: 577C97
+
+// class identifiers, but much darker - decrease color chaos when used in the same line with its member
+: 50724B
 
 // enum and namespaces - the same since plenty engine enums are place inside of namespaces
-: 829A88
+: 758C7A
+
+------------------------------------------------------------------
+this must complement color above
+
+// keyword
+: 6F8285
+
+// macros
+: 95549B
+
+// number
+: 52A29A
+
+// operators
+: 7F848E
+
+// preprocessors directives
+: 878787
+
+// strings
+: 905E50
+
+// UE4 reflection specifier
+: 82889F
+
+------------------------------------------------------------------
+: comments should stand out
 
 // comments
 : 8F904D
@@ -29,54 +53,20 @@ Resharper C++ Struct Identifier
 // todo
 : 8F904D
 
-// fields needs color which nicely complements members, they're always appear together
-// should stand out if placed in the same line with local variables, but still be very similar (otherwise you get clusterfuck)
-Resharper C++ Class Field Identifier
-all non-local variables
-: 3e74ab
-
-// a slightly different shade for local variables and member parameters
-: 577C97
-
-// strings
-: 905E50
-
-// operators
-: 918683
-
-// number
-: 5BB2AA
-
-// macros
-: 95549B
-
-// preprocessors directives
-: 878787
-
-// UE4 reflection specifier
-: 9097AE
-
-// specifiers
-: 9EA7C1
-
-// keyword
-: 6f8285
+------------------------------------------------------------------
+non-text things
 
 // line number
 : 385460
+
+// match highlighting
+: 364154
+
+------------------------------------------------------------------
+VS 2017 version
 
 // error text
 : B00000
 
 // error stripe
 : C40000
-
-// background
-: 1F222A
-
-// match highlighting
-: CEFDF886
-
-// current line
-: AE3A5649
-: FF1F222A
