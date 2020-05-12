@@ -1,5 +1,5 @@
 ﻿<Themes>
-  <Theme Name="DarkZen (6)" GUID="{6d44b150-d2e1-43a7-92c1-56d9a5052715}" BaseGUID="{4acbb50d-ba59-4c44-9187-4e38c12a9d49}">
+  <Theme Name="DarkZen (11)" GUID="{9a6fd322-0fea-4b4d-9f09-f2550ea27793}" BaseGUID="{a786d1c3-bd69-4c27-a22c-2c5bd7221d96}">
     <Category Name="ACDCOverview" GUID="{c8887ac6-3c60-4209-9d69-8f4c12a60044}">
       <Color Name="Body">
         <Background Type="CT_RAW" Source="FF282C34" />
@@ -1796,7 +1796,7 @@
         <Foreground Type="CT_RAW" Source="FF6EB371" />
       </Color>
       <Color Name="ReSharper Matched Format String Item">
-        <Background Type="CT_RAW" Source="FFF5DEB3" />
+        <Background Type="CT_RAW" Source="FF282C34" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="ReSharper String Escape Character 1">
@@ -1808,19 +1808,19 @@
         <Foreground Type="CT_RAW" Source="FFFF66B2" />
       </Color>
       <Color Name="ReSharper Matched Brace">
-        <Background Type="CT_RAW" Source="FFDBE0CC" />
+        <Background Type="CT_RAW" Source="FF282C34" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="ReSharper Unmatched Brace">
-        <Background Type="CT_RAW" Source="FFFFB496" />
+        <Background Type="CT_RAW" Source="FF282C34" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="ReSharper Context Exit">
-        <Background Type="CT_RAW" Source="FFDBE0CC" />
+        <Background Type="CT_RAW" Source="FF2C313C" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="ReSharper Usage of element under cursor">
-        <Background Type="CT_RAW" Source="FFDBE0CC" />
+        <Background Type="CT_RAW" Source="FF2C313C" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="ReSharper Injected Language Background">
@@ -1900,7 +1900,7 @@
         <Foreground Type="CT_RAW" Source="FF009EFF" />
       </Color>
       <Color Name="ReSharper Highlight Target">
-        <Background Type="CT_RAW" Source="FFFFB6C1" />
+        <Background Type="CT_RAW" Source="FF282C34" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="ReSharper Highlight Target Marker on Error Stripe">
@@ -1925,7 +1925,7 @@
       </Color>
       <Color Name="ReSharper C++ Global Variable Identifier">
         <Background Type="CT_RAW" Source="FF3E74AB" />
-        <Foreground Type="CT_RAW" Source="FF000000" />
+        <Foreground Type="CT_RAW" Source="FF3E74AB" />
       </Color>
       <Color Name="ReSharper C++ Enum Enumerator Identifier">
         <Background Type="CT_INVALID" Source="00000000" />
