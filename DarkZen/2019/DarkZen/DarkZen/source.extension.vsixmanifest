@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="DarkZen.e1e706e2-05d3-4da9-8754-652cd8ab65f4" Version="1.0" Language="en-US" Publisher="Moth Doctor" />
+        <Identity Id="DarkZen.e1e706e2-05d3-4da9-8754-652cd8ab65f4" Version="1.1" Language="en-US" Publisher="Moth Doctor" />
         <DisplayName>DarkZen</DisplayName>
-        <Description xml:space="preserve">Toned-down syntax highlighting tailored for Resharper C++ and Unreal Engine 4.</Description>
+        <Description xml:space="preserve">Toned-down syntax highlighting tailored for Resharper C++ and Unreal Engine.</Description>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 17.0)" />

@@ -1,5 +1,5 @@
 ﻿<Themes>
-  <Theme Name="DarkZen (12)" GUID="{5761cff9-4151-4d9c-9b04-660e23446b6f}" BaseGUID="{9a6fd322-0fea-4b4d-9f09-f2550ea27793}">
+  <Theme Name="DarkZen (17)" GUID="{258c1434-aa4d-403c-af5d-35ade0be335c}" BaseGUID="{8e8940a9-bf03-4e5a-bb81-01232d48db6f}">
     <Category Name="ACDCOverview" GUID="{c8887ac6-3c60-4209-9d69-8f4c12a60044}">
       <Color Name="Body">
         <Background Type="CT_RAW" Source="FF282C34" />
@@ -3407,6 +3407,30 @@
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
+      <Color Name="MatchColor">
+        <Background Type="CT_RAW" Source="FF40006A" />
+        <Foreground Type="CT_RAW" Source="FF841ECC" />
+      </Color>
+      <Color Name="ReSharper Resources Dispose Points">
+        <Background Type="CT_RAW" Source="FF3D2D2D" />
+        <Foreground Type="CT_RAW" Source="FFA16C6C" />
+      </Color>
+      <Color Name="mergeEditor.ConflictMismatchLine">
+        <Background Type="CT_RAW" Source="FF5E2A23" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="mergeEditor.WordDiffBoxAccepted">
+        <Background Type="CT_RAW" Source="FF256C56" />
+        <Foreground Type="CT_RAW" Source="99000000" />
+      </Color>
+      <Color Name="mergeEditor.WordDiffBoxConflict">
+        <Background Type="CT_RAW" Source="FF9F4A3F" />
+        <Foreground Type="CT_RAW" Source="99000000" />
+      </Color>
+      <Color Name="ReSharper C++ Preprocessor Macro Parameter Identifier">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
     </Category>
     <Category Name="CpuUsageTool" GUID="{02071ec8-0cf0-4822-af30-9f001537e7eb}">
       <Color Name="CallerCalleeFunctionGroupBackground">
@@ -5943,6 +5967,21 @@
       </Color>
       <Color Name="PreviewTagTextDisabled">
         <Background Type="CT_RAW" Source="FF6E7075" />
+      </Color>
+      <Color Name="ClassDesignerPrimaryGrabHandle">
+        <Background Type="CT_RAW" Source="FF3399FF" />
+      </Color>
+      <Color Name="ClassDesignerPrimaryLineGrabHandle">
+        <Background Type="CT_RAW" Source="FF3399FF" />
+      </Color>
+      <Color Name="ClassDesignerSecondaryLineGrabHandle">
+        <Background Type="CT_RAW" Source="FFF1F1F1" />
+      </Color>
+      <Color Name="ToolWindowValidationErrorBorder">
+        <Background Type="CT_RAW" Source="FFE46364" />
+      </Color>
+      <Color Name="ToolWindowValidationErrorText">
+        <Background Type="CT_RAW" Source="FFE46364" />
       </Color>
     </Category>
     <Category Name="Find" GUID="{4370282e-987e-4ac4-ad14-5ffed2ad1e14}">
@@ -10403,6 +10442,90 @@
       </Color>
       <Color Name="WelcomeExperienceForeground">
         <Background Type="CT_RAW" Source="FF000000" />
+      </Color>
+    </Category>
+    <Category Name="SolutionErrorFilter" GUID="{669949b4-7f07-4ee5-919a-5d7635b30b7d}">
+      <Color Name="ErrorSquiggle">
+        <Background Type="CT_RAW" Source="FFFC3E36" />
+      </Color>
+      <Color Name="WarningSquiggle">
+        <Background Type="CT_RAW" Source="FF95DB7D" />
+      </Color>
+      <Color Name="InfoSquiggle">
+        <Background Type="CT_RAW" Source="FF9BD1E1" />
+      </Color>
+      <Color Name="ErrorListPopup">
+        <Background Type="CT_RAW" Source="FF424245" />
+        <Foreground Type="CT_RAW" Source="FFF1F1F1" />
+      </Color>
+      <Color Name="ErrorListPopupBorder">
+        <Background Type="CT_RAW" Source="FF92CAF4" />
+      </Color>
+      <Color Name="ErrorSquiggleSelectedActive">
+        <Background Type="CT_RAW" Source="FFFF9999" />
+      </Color>
+      <Color Name="WarningSquiggleSelectedActive">
+        <Background Type="CT_RAW" Source="FFCCFFCC" />
+      </Color>
+      <Color Name="InfoSquiggleSelectedActive">
+        <Background Type="CT_RAW" Source="FFCCCCFF" />
+      </Color>
+      <Color Name="ErrorSquiggleSelectedInactive">
+        <Background Type="CT_RAW" Source="FFFC3E36" />
+      </Color>
+      <Color Name="WarningSquiggleSelectedInactive">
+        <Background Type="CT_RAW" Source="FF95DB7D" />
+      </Color>
+      <Color Name="InfoSquiggleSelectedInactive">
+        <Background Type="CT_RAW" Source="FF9BD1E1" />
+      </Color>
+      <Color Name="ErrorListSelectedItem">
+        <Background Type="CT_RAW" Source="FFA77200" />
+        <Foreground Type="CT_RAW" Source="FFFFFFFF" />
+      </Color>
+      <Color Name="ErrorListHeader">
+        <Background Type="CT_RAW" Source="FF3E3E42" />
+        <Foreground Type="CT_RAW" Source="FFF1F1F1" />
+      </Color>
+    </Category>
+    <Category Name="ThemedUtilityDialog" GUID="{e2961a72-48a5-4da7-8168-1fee490f78a7}">
+      <Color Name="ActiveCaption">
+        <Background Type="CT_RAW" Source="FF2D2D30" />
+        <Foreground Type="CT_RAW" Source="FF999999" />
+      </Color>
+      <Color Name="WindowBorder">
+        <Background Type="CT_RAW" Source="FF007ACC" />
+      </Color>
+      <Color Name="WindowPanel">
+        <Background Type="CT_RAW" Source="FF252526" />
+        <Foreground Type="CT_RAW" Source="FFF1F1F1" />
+      </Color>
+      <Color Name="WindowButton">
+        <Background Type="CT_RAW" Source="00000000" />
+      </Color>
+      <Color Name="WindowButtonHover">
+        <Background Type="CT_RAW" Source="72555555" />
+      </Color>
+      <Color Name="WindowButtonDown">
+        <Background Type="CT_RAW" Source="FF007ACC" />
+      </Color>
+      <Color Name="WindowButtonBorder">
+        <Background Type="CT_RAW" Source="00000000" />
+      </Color>
+      <Color Name="WindowButtonHoverBorder">
+        <Background Type="CT_RAW" Source="72555555" />
+      </Color>
+      <Color Name="WindowButtonDownBorder">
+        <Background Type="CT_RAW" Source="FF007ACC" />
+      </Color>
+      <Color Name="WindowButtonGlyph">
+        <Background Type="CT_RAW" Source="FFF1F1F1" />
+      </Color>
+      <Color Name="WindowButtonDownGlyph">
+        <Background Type="CT_RAW" Source="FFFFFFFF" />
+      </Color>
+      <Color Name="WindowButtonHoverGlyph">
+        <Background Type="CT_RAW" Source="FF007ACC" />
       </Color>
     </Category>
   </Theme>
