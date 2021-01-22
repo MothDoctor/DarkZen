@@ -1,10 +1,10 @@
 <scheme name="Zen Dark" version="142" parent_scheme="ReSharper Dark">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2021-01-22T17:26:08</property>
+    <property name="created">2021-01-22T18:00:26</property>
     <property name="ide">Rider</property>
     <property name="ideVersion">2020.3.4.0.0</property>
-    <property name="modified">2021-01-22T17:26:17</property>
+    <property name="modified">2021-01-22T18:00:32</property>
     <property name="originalScheme">Zen Dark</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -15,10 +15,9 @@
     <option name="DOC_COMMENT_GUIDE" value="8f904d" />
     <option name="DOC_COMMENT_LINK" value="8f904d" />
     <option name="FOLDED_TEXT_BORDER_COLOR" value="3a3b27" />
-    <option name="GUTTER_BACKGROUND" value="1d242b" />
+    <option name="GUTTER_BACKGROUND" value="24252b" />
     <option name="LINE_NUMBERS_COLOR" value="385460" />
-    <option name="SELECTION_BACKGROUND" value="abb033" />
-    <option name="SELECTION_FOREGROUND" value="323232" />
+    <option name="SELECTION_BACKGROUND" value="3b3115" />
   </colors>
   <attributes>
     <option name="DEFAULT_BLOCK_COMMENT">
@@ -301,7 +300,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="7f848e" />
-        <option name="BACKGROUND" value="1d242b" />
+        <option name="BACKGROUND" value="24252b" />
       </value>
     </option>
   </attributes>
