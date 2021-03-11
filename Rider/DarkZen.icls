@@ -1,10 +1,10 @@
 <scheme name="Zen Dark" version="142" parent_scheme="ReSharper Dark">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2021-01-22T18:00:26</property>
+    <property name="created">2021-03-11T17:09:00</property>
     <property name="ide">Rider</property>
-    <property name="ideVersion">2020.3.4.0.0</property>
-    <property name="modified">2021-01-22T18:00:32</property>
+    <property name="ideVersion">2021.1.0.0</property>
+    <property name="modified">2021-03-11T17:09:07</property>
     <property name="originalScheme">Zen Dark</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
@@ -17,6 +17,7 @@
     <option name="FOLDED_TEXT_BORDER_COLOR" value="3a3b27" />
     <option name="GUTTER_BACKGROUND" value="24252b" />
     <option name="LINE_NUMBERS_COLOR" value="385460" />
+    <option name="RIGHT_MARGIN_COLOR" value="" />
     <option name="SELECTION_BACKGROUND" value="3b3115" />
   </colors>
   <attributes>
@@ -212,10 +213,13 @@
         <option name="FOREGROUND" value="3e74ab" />
       </value>
     </option>
-    <option name="ReSharper.CPP_OVERLOADED_OPERATOR_IDENTIFIER">
+    <option name="ReSharper.CPP_MEMBER_FUNCTION_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="7f848e" />
+        <option name="FOREGROUND" value="4c9f70" />
       </value>
+    </option>
+    <option name="ReSharper.CPP_OVERLOADED_OPERATOR_IDENTIFIER">
+      <value />
     </option>
     <option name="ReSharper.CPP_PARAMETER_VARIABLE_IDENTIFIER">
       <value>
