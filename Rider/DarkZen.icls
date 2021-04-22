@@ -1,10 +1,10 @@
 <scheme name="Zen Dark" version="142" parent_scheme="ReSharper Dark">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2021-03-11T17:09:00</property>
+    <property name="created">2021-04-22T18:40:23</property>
     <property name="ide">Rider</property>
-    <property name="ideVersion">2021.1.0.0</property>
-    <property name="modified">2021-03-11T17:09:07</property>
+    <property name="ideVersion">2021.1.1.0.0</property>
+    <property name="modified">2021-04-22T18:40:29</property>
     <property name="originalScheme">Zen Dark</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.2" />
